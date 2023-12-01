@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>venue booking system</title>
+    </head>
+    <body>
+        <h1>venue booking Website</h1>
+        <form method="get">
+            <label>enter user name</label><br>
+            <input type="text" id="un" name="user" autofocus><br><br>
+			
+			<label>enter state</label><br>
+			<input type="text" id="sn" name="state" placeholder="goa" disabled><br><br>
+
+            <label>enter venue name</label><br>
+            <input type="text" id="vn" name="venue" maxlength="10" autocomplete="on"><br><br>
+
+            <label>enter the timimgs for booking</label><br>
+            <input type="text" id="tn" name="timing" placeholder="9am to 5pm" ><br><br>
+
+            <label>choose agent number</label><br>
+            <input type="text" id="an1" name="agent" placeholder="987" readonly><br><br>
+
+            <label>enter date</label><br>
+            <input type="date"  id="dn" name="date"><br><br>
+
+            <label>select hall</label><br>
+            <input type="checkbox" name="123" id="h1" value="hall-no 123" checked>hall-no 123 <br>
+            <input type="checkbox" name="234" id="h2" value="hall-no 234">hall-no 234 <br>
+            <input type="checkbox" name="546" id="h3" value="hall-no 546">hall-no 546 <br>
+            <input type="checkbox" name="547" id="h4" value="hall-no 547">hall-no 547 <br><br>
+
+            <label>are you a citizen of goa?</label><br>
+            <input type="radio" name="citizen" id="yn" value="yes">Yes <br>
+            <input type="radio" name="citizen" id="nn" value="no">No <br><br>
+
+            <label>select your city</label><br>
+            <select name="city" id="cn">
+                <option value="porvorim"> porvorim</option>
+                <option value="panjim" selected>panjim</option>
+                <option value="mapusa">mapusa</option>
+                <option value="margao">margao</option>
+            </select>
+            <br><br>
+
+            <label>enter age</label><br>
+            <input type="number" name="age" id="an2" max="100" min="18">
+            <br><br>
+
+            <label>upload id</label><br>
+            <input type="file" name="id" id="idn">
+            <br><br>
+            
+            <label>Select lighting color</label><br>
+            <input type="color" name="color" id="crn">
+            <br><br>
+
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+        </form>
+    </body>
+</html>
